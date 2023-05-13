@@ -1,0 +1,29 @@
+Aquí tienes una lista larga de comandos de Git junto con una breve descripción de cada uno:
+
+1. `git init`: Inicializa un nuevo repositorio de Git en el directorio actual.
+2. `git clone <url>`: Clona un repositorio remoto en tu máquina local.
+3. `git add <archivo>`: Agrega un archivo al área de preparación (staging area) para ser incluido en el próximo commit.
+4. `git commit -m "<mensaje>"`: Crea un nuevo commit con los archivos que están en el área de preparación y los guarda en el historial del repositorio.
+5. `git status`: Muestra el estado actual del repositorio, incluyendo los archivos modificados, agregados o eliminados.
+6. `git diff`: Muestra las diferencias entre los cambios realizados en los archivos y el último commit.
+7. `git branch`: Muestra las ramas disponibles en el repositorio.
+8. `git checkout <rama>`: Cambia a la rama especificada.
+9. `git merge <rama>`: Fusiona la rama especificada con la rama actual.
+10. `git pull`: Obtiene y fusiona los cambios más recientes desde un repositorio remoto a la rama actual.
+11. `git push`: Envía los cambios locales al repositorio remoto.
+12. `git remote add <nombre> <url>`: Agrega un nuevo repositorio remoto con el nombre especificado y la URL correspondiente.
+13. `git log`: Muestra el historial de commits en orden cronológico.
+14. `git reset <commit>`: Deshace los commits posteriores al commit especificado y mantiene los cambios en el área de preparación.
+15. `git revert <commit>`: Crea un nuevo commit que revierte los cambios realizados en el commit especificado.
+16. `git fetch`: Obtiene los cambios más recientes desde un repositorio remoto sin fusionarlos con la rama actual.
+17. `git rm <archivo>`: Elimina un archivo del repositorio y del sistema de archivos.
+18. `git tag <nombre>`: Crea una etiqueta en el commit actual para marcar un hito o versión importante.
+19. `git stash`: Guarda los cambios locales en una pila temporal para poder cambiar de rama sin realizar un commit.
+20. `git cherry-pick <commit>`: Aplica los cambios de un commit específico en la rama actual.
+
+Esta es solo una selección de comandos de Git. Existen muchos más comandos y opciones disponibles. Puedes explorar la documentación oficial de Git o utilizar `git --help` para obtener más información sobre cada comando.
+
+
+demo/kivycatalog/main.py
+
+demo/kivycatalog/kivycatalog.kv

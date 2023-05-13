@@ -1,0 +1,7 @@
+pip install "kivy[base]" kivy_examples
+
+
+
+layout = BoxLayout(padding=10)
+button = Button(text='My first button')
+layout.add_widget(button)
